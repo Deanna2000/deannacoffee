@@ -1,0 +1,225 @@
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header {
+    font-weight: bold;
+}
+
+
+
+.headerlogo {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.headerlogo > img {
+    height: 100px;
+    width: 100px;
+}
+
+#mainHeader {
+    height: 80px;
+}
+
+.searchbox {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#headername {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+    color: #603813;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #5f2c17;
+}
+
+#welcomeimage {
+    float: left;
+    width: 600px;
+}
+
+#welcomeimage > img {
+    width: 800px;
+}
+
+#coffeeofthemonth {
+    float: right;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+#welcometext {
+    float: left;
+    width: 68%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    column-count: 2;
+}
+
+#welcometext > header {
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events, #shoppingcart {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#events > header {
+    margin-left: 10px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#events > ul {
+    list-style: none;
+}
+
+#events > ul > li {
+    margin-bottom: 3px;
+}
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+.productarticlemoreinfo {
+    font-size: 12px;
+    color: #603813;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #5c5045;
+    margin: 20px 0px 20px;
+    padding: 5px;
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+.blockheader {
+    font-size: 30px;
+    font-family: 'Cabin Sketch';
+    margin-top: 20px;
+    color: #603813;
+
+}
+
+.productarticlewidethumbnail, .productarticlethumbnail {
+    height: 100px;
+    padding: 20px;
+}
+
+.productarticlewide {
+    display: flex;
+}
+
+.backgroundgradient {
+    background: -webkit-linear-gradient(left, #8B4513, #341c05); /* safari */
+    background: -o-linear-gradient(right, #8B4513, #341c05); /* opera */
+    background: -moz-linear-gradient(right, #8B4513, #341c05); /* firefox */
+    background: linear-gradient(to right, #8B4513, #341c05); 
+}
+
+.backgroundgradient ul {
+    list-style-type: none;
+    /* margin: 10px 0px 0px 0px; */
+    /* padding: 10px; */
+    overflow: hidden;
+    
+}
+
+.backgroundgradient li {
+    display: inline;
+    /* padding: 14px 16px; */
+    
+}
+
+.backgroundgradient a {
+    text-decoration: none ;
+    color: white ;
+    /* margin-top: 20px; */
+}
+
+input {
+    padding: 2px 20px 2px 10px;
+}
+
+.navlink {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.addtocartbutton {
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #8B4513;
+    border: 1px solid #381f09;
+
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0kl0,.75);
+    box-shadow: 0 0 4px rgba(0,0,0,.75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+
+.addtocartbutton:hover, .addtocartbutton:focus {
+    background-color: #512c0a;
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,.75);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0,.75);
+    box-shadow: 0 0 1px rgba(0,0,0,.75);
+}
+
+#allcoffees {
+    display: inline-block;
+    width: 800px;
+}
+
+section, .masptostore {
+    float: left;
+    width: 800px;
+}
+
+img, .coffeeofthemonth {
+    height: 100%;
+    width: 70%;
+    object-fit: contain;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="styles/layout.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Lobster" rel="stylesheet">
+
+</head>
+<header>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img src="images/logo.png"/>
+            </a>
+            <span id="headername">Deanna's Coffee Shop</span>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+        </div>
+        <nav class="backgroundgradient">
+            <ul>
+                <li><a class="navlink" href="index.html">Home</a></li>
+                <li><a class="navlink" href="blog.html">Blog</a></li>
+                <li><a class="navlink" href="allcoffees.html">Our Coffees</a></li>
+                <li><a class="navlink" href="gifts.html">Gifts</a></li>
+                <li><a class="navlink" href="findus.html">Find Us</a></li>
+                <li><a class="navlink" href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="welcomeimage">
+        <img src="images/coffeeheader.jpg" />
+    </div>
+    <div id="coffeeofthemonth">
+        <img src="images/cotm.jpg" />
+    </div>
+    <div id="shoppingcart">
+            <header class="blockheader"><span>Shopping Cart</span></header>
+            <ul></ul>
+    </div>
+
+<body>
+    <section id="allcoffees">
+        <header class="blockheader">
+            <span>All the Coffees in Black Bags</span>
+        </header>
+        <article class="productarticlewide" id="coffee-1" data-price="10.00">
+            <img class="productarticlewidethumbnail" src="images/coffee/coffee1.png" style="height:140px" />
+            <div class="productarticlecontent">
+                <h3>The World's Best Coffee In A Black Bag</h3>
+                <p class="productarticledescription"> Redeye cultivar beans cultivar saucer cappuccino shop single
+                    shot. Medium, aftertaste breve black, medium ut macchiato pumpkin spice et iced sugar acerbic.
+                    Breve java, body latte cappuccino, arabica, percolator saucer percolator aftertaste crema. Qui
+                    skinny mocha id lungo, plunger pot, cinnamon seasonal arabica shop java black. Mazagran a trifecta
+                    as id sit mazagran medium.</p>
+                <p class="productarticleprice">$10</p>
+            </div>
+        </article>
+        <article class="productarticlewide" id="coffee-2" data-price="8.00">
+            <img class="productarticlewidethumbnail" src="images/coffee/coffee2.png" style="height:140px" />
+            <div class="productarticlecontent">
+                <h3>The World's Second Best Coffee In A Black Bag</h3>
+                <p class="productarticledescription"> Redeye cultivar beans cultivar saucer cappuccino shop single
+                    shot. Medium, aftertaste breve black, medium ut macchiato pumpkin spice et iced sugar acerbic.
+                    Breve java, body latte cappuccino, arabica, percolator saucer percolator aftertaste crema. Qui
+                    skinny mocha id lungo, plunger pot, cinnamon seasonal arabica shop java black. Mazagran a trifecta
+                    as id sit mazagran medium.</p>
+                <p class="productarticleprice">$10</p>
+            </div>
+        </article>
+        <article class="productarticlewide" id="coffee-3" data-price="10.00">
+            <img class="productarticlewidethumbnail" src="images/coffee/coffee3.png" style="height:140px" />
+            <div class="productarticlecontent">
+                <h3>The World's Several Best Coffees In A Black Bag</h3>
+                <p class="productarticledescription"> Redeye cultivar beans cultivar saucer cappuccino shop single
+                    shot. Medium, aftertaste breve black, medium ut macchiato pumpkin spice et iced sugar acerbic.
+                    Breve java, body latte cappuccino, arabica, percolator saucer percolator aftertaste crema. Qui
+                    skinny mocha id lungo, plunger pot, cinnamon seasonal arabica shop java black. Mazagran a trifecta
+                    as id sit mazagran medium.</p>
+                <p class="productarticleprice">$10</p>
+            </div>
+        </article>
+        <article class="productarticlewide" id="coffee-4" data-price="10.00">
+            <img class="productarticlewidethumbnail" src="images/coffee/coffee4.png" style="height:140px" />
+            <div class="productarticlecontent">
+                <h3>The World's Third Best Coffee In A Black Bag</h3>
+                <p class="productarticledescription"> Redeye cultivar beans cultivar saucer cappuccino shop single
+                    shot. Medium, aftertaste breve black, medium ut macchiato pumpkin spice et iced sugar acerbic.
+                    Breve java, body latte cappuccino, arabica, percolator saucer percolator aftertaste crema. Qui
+                    skinny mocha id lungo, plunger pot, cinnamon seasonal arabica shop java black. Mazagran a trifecta
+                    as id sit mazagran medium.</p>
+                <p class="productarticleprice">$10</p>
+            </div>
+        </article>
+    </section>
+    <script src="scripts/dragAndDrop.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", addDnDHandlers, false);
+    </script>
+</body>
+
+</html>

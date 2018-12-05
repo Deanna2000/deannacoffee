@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="styles/layout.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img src="images/logo.png"/>
+            </a>
+            <span id="headername">Deanna's Coffee Shop</span>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+        </div>
+        <nav class="backgroundgradient">
+            <ul>
+                <li><a class="navlink" href="index.html">Home</a></li>
+                <li><a class="navlink" href="blog.html">Blog</a></li>
+                <li><a class="navlink" href="allcoffees.html">Our Coffees</a></li>
+                <li><a class="navlink" href="gifts.html">Gifts</a></li>
+                <li><a class="navlink" href="findus.html">Find Us</a></li>
+                <li><a class="navlink" href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div id="welcomeimage">
+            <img src="images/coffeeheader.jpg" />
+        </div>
+        <div id="coffeeofthemonth">
+            <img style="height: 100%; width: 70%; object-fit: contain;" src="images/cotm.jpg" />
+        </div>
+        <section class="maptostore">
+            <header class="blockheader findusheader">
+                <span>Come to our real-life store!</span>
+            </header>
+            
+            <div id="map"></div>
+            
+            <div id="driving-directions"></div>
+        </section>
+        <script src="scripts/geopositioning.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHpWv7IffJQPQlEk57G874c3Svl5DAq4&callback=showMap"
+        async defer type="text/javascript"></script>
+        <!-- <script src="http://maps.google.com/maps/api/js?"></script> -->
+        <!-- <script>
+            document.addEventListener("DOMContentLoaded", createDrivingDirectionsMap, false);
+            </script> -->
+</body>
+
+</html>
